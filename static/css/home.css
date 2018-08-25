@@ -1,0 +1,134 @@
+body {
+  background: url("../img/nycskyline2.jpg") no-repeat center center;
+  background-size: 100% 700px;
+  height: 80vh;
+  background-position: center top;
+}
+
+.home {
+  margin-bottom: 300px;
+}
+
+#homepage-welcome {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  margin-bottom: 75px;
+  color: gray;
+  text-align: center;
+  font-family: serif;
+}
+
+#homepage-selectors {
+  margin: auto;
+  margin-left: 25px;
+  text-align: center;
+}
+
+.homepage-boxes-centered {
+  margin: auto;
+}
+
+#homepageDropdownMenuButton {
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 0;
+  color: black;
+  display: inline-block;
+  width: 300px;
+  height: 50px;
+  text-align: left;
+}
+
+#homepage-input-box {
+  width: 700px;
+  display: inline-block;
+  clear: left;
+  margin-left: 25px;
+  height: 50px;
+  border: 1px solid gray;
+  padding: 12px 6px 12px 6px;
+}
+
+.homepage-section-full {
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+.homepage-section-full-box {
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  text-align: center;
+}
+
+#home-trends-section {
+  background-color: white;
+}
+
+.homepage-section-header {
+  color: #4f5051;
+  font-family: serif;
+  margin-bottom: 40px;
+  padding-top: 50px;
+}
+
+.homepage-section-description {
+  font-size: 1em;
+  margin-bottom: 40px;
+  line-height: 1.7em;
+}
+
+#trends-button-tour {
+  font-size: .8em;
+  padding: 15px 30px 15px 30px;
+  border-radius: 0;
+  background-color: black;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+#homepage-featured-section {
+  background-color: #f4f5f9;
+  width: 100%;
+}
+
+.homepage-pic-row {
+  padding-left: auto;
+  padding-right: auto;
+  padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.pic-box-sample {
+  height: 550px;
+  max-width: 550px;
+  border: 1px solid #747477;
+  margin: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
+.homepage-listing-pic {
+  height: 75%;
+  width: 100%;
+}
+
+.homepage-listing-pic-individual {
+  height: 100%;
+  width: 100%;
+}
+
+.homepage-listing-info {
+  height: 25%;
+}

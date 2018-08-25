@@ -1,0 +1,93 @@
+{% extends 'layout.html' %}
+
+
+{% block content %}
+<body class="{{ bodyClass }}">
+  <div class="home">
+    <div id="homepage-welcome">
+      <h1>This is not a real Compass website</h1>
+    </div>
+    <div class="homepage-selectors container">
+      <div class="homepage-boxes-centered">
+        <div id="homepage-selectors" class="row">
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle bg-white btn-outline" type="button" id="homepageDropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              New York City
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">New York</a>
+              <a class="dropdown-item" href="#">Miami</a>
+              <a class="dropdown-item" href="#">Boston</a>
+            </div>
+          </div>
+          <div>
+            <input id="homepage-input-box" type="text" name="" value="" placeholder="Enter an agent, neighborhood, address, ZIP code, or listing ID">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section id="home-trends-section" class="container-fluid homepage-section-full">
+    <div class="homepage-section-full-box">
+      <h2 class="homepage-section-header">Discover home trends in your market</h2>
+      <h3 class="homepage-section-description">Hand-selected by local experts, these homes - curated by design, amenities, and neighborhood - provide a visual snapshot of the most sought-after properties around</h3>
+      <button id="trends-button-tour" type="button" class="btn btn-dark">Tour the area</button>
+    </div>
+  </section>
+  <section id="homepage-featured-section" class="homepage-section-full">
+    <div class="homepage-section-full-box">
+      <h2 class="homepage-section-header">Our featured exclusives in New York City</h2>
+      <h3 class="homepage-section-description">Compass agents partner with you throughout your home search, providing their expertise and deep knowledge of the New York City real estate market to help you find a home you love.</h3>
+    </div>
+    <div class="homepage-section-full container-fluid">
+      <div class="row homepage-pic-row">
+        <div class="col col-lg-6 pic-box-sample">
+          <div class="homepage-listing-pic">
+            <img class="homepage-listing-pic-individual" src="img/livingpics/living1.jpg" alt="">
+          </div>
+          <div class="homepage-listing-info">
+            <p>Address</p>
+            <p>Neighborhood</p>
+            <p>Price</p>
+            <p>Bed | Bath | SF</p>
+          </div>
+        </div>
+        <div class="col col-lg-6 pic-box-sample">
+          <div class="homepage-listing-pic">
+            <img class="homepage-listing-pic-individual" src="img/livingpics/living2.jpg" alt="">
+          </div>
+          <div class="homepage-listing-info">
+
+          </div>
+        </div>
+      </div>
+      <div class="row homepage-pic-row">
+        <div class="col col-lg-6 pic-box-sample">
+          <div class="homepage-listing-pic">
+            <img class="homepage-listing-pic-individual" src="img/livingpics/living3.jpg" alt="">
+          </div>
+          <div class="homepage-listing-info">
+
+          </div>
+        </div>
+        <div class="col col-lg-6 pic-box-sample">
+          <div class="homepage-listing-pic">
+            <img class="homepage-listing-pic-individual" src="img/livingpics/living4.jpg" alt="">
+          </div>
+          <div class="homepage-listing-info">
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="homepage-section-full-box">
+      <button id="trends-button-tour" type="button" class="btn btn-dark">View All Sales Exclusives</button>
+    </div>
+  </section>
+  <section id="homepage-partner-section" class="homepage-section-full">
+    <div class="homepage-section-full-box">
+
+    </div>
+  </section>
+</body>
+{% endblock %}

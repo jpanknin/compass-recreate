@@ -1,0 +1,82 @@
+#main-nav-bar {
+  line-height: 60px;
+  border-bottom: 1px solid white;
+  font-size: .9em;
+  color: white;
+}
+
+#navbar-section {
+  margin: auto;
+}
+
+#logo-div {
+  border-right: 1px solid white;
+}
+
+#header-logo {
+  width: 175px;
+  height: 38px;
+  margin: 10px 50px 10px 0;
+  vertical-align: middle;
+}
+
+#dropdownMenuButtonBottom {
+  background-color: transparent;
+  border-color: transparent;
+  color: white;
+}
+
+#dropdownMenuButtonBottom:hover {
+  border-color: transparent;
+}
+
+#dropdownMenuButtonBottom:focus {
+  border-color: transparent;
+}
+
+#dropdownMenuButtonBottom:focus, #dropdownMenuButtonBottom.focus {
+  border-color: transparent;
+}
+
+#dropdownMenuButtonBottom:blur {
+  border-color: transparent;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active:focus, .btn-secondary:not(:disabled):not(.disabled):active:focus, .show>.btn-secondary.dropdown-toggle:focus {
+  border: 0;
+  box-shadow: none;
+}
+
+.navbar {
+  height: 60px;
+  text-align: right;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+#login-signup-div {
+  border-left: 1px solid white;
+}
+
+.header-login-signup-btn {
+  font-size: .9em;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 0;
+  width: 75px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+#header-login-btn {
+  background-color: transparent;
+  border-color: white;
+  color: white;
+}
+
+#header-signup-btn {
+  margin-left: 10px;
+  margin-right: 10px;
+}
